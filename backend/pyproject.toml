@@ -1,7 +1,7 @@
 [project]
 name = "backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "Enterprise Fraud & Audit Scanner - Backend Service"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -22,3 +22,14 @@ dev = [
     "pytest-asyncio>=1.4.0",
     "ruff>=0.16.5",
 ]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
