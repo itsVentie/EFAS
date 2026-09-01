@@ -112,7 +112,7 @@ docker compose up -d --build
   - [x] PostgreSQL 16 (Relational state & window analytics)
   - [x] Elasticsearch 8 (Full-text log index & payload search)
   - [x] Redis (Caching, session state, & task rate limiting)
-  - [ ] gRPC dependencies & local protocol buffers generation environment
+  - [x] gRPC dependencies & local protocol buffers generation environment
 - [ ] Verify connectivity and health checks across all containerized services
 
 </details>
