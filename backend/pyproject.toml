@@ -1,0 +1,24 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.19.1",
+    "asyncpg>=0.31.0",
+    "betterproto>=1.2.5",
+    "celery>=5.6.3",
+    "elasticsearch>=9.5.0",
+    "grpclib>=0.4.9",
+    "litestar>=2.24.0",
+    "redis>=8.1.0",
+    "taskiq>=0.12.6",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "ruff>=0.16.5",
+]
