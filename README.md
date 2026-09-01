@@ -107,7 +107,7 @@ docker compose up -d --build
 
 - [x] Initialize monorepo project structure
 - [x] Setup Python 3.12+ backend workspace with `uv` package manager and `ruff` linter/formatter
-- [ ] Setup React 19 frontend workspace with `bun` package manager and `biome` linter
+- [x] Setup React 19 frontend workspace with `bun` package manager and `biome` linter
 - [ ] Create `docker-compose.yml` for local infrastructure:
   - [ ] PostgreSQL 16 (Relational state & window analytics)
   - [ ] Elasticsearch 8 (Full-text log index & payload search)
