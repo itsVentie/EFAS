@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package audit.v1;
+
+message LogEntry {
+  string id = 1;
+  string timestamp = 2;
+  string user_id = 3;
+  string action = 4;
+  string ip_address = 5;
+  string payload_json = 6;
+}
+
+message IngestResponse {
+  bool success = 1;
+  int32 processed_count = 2;
+}
+
+service AuditIngestService {
+  rpc IngestLog (LogEntry) returns (IngestResponse);
+}
