@@ -109,9 +109,9 @@ docker compose up -d --build
 - [x] Setup Python 3.12+ backend workspace with `uv` package manager and `ruff` linter/formatter
 - [x] Setup React 19 frontend workspace with `bun` package manager and `biome` linter
 - [x] Create `docker-compose.yml` for local infrastructure:
-  - [ ] PostgreSQL 16 (Relational state & window analytics)
-  - [ ] Elasticsearch 8 (Full-text log index & payload search)
-  - [ ] Redis (Caching, session state, & task rate limiting)
+  - [x] PostgreSQL 16 (Relational state & window analytics)
+  - [x] Elasticsearch 8 (Full-text log index & payload search)
+  - [x] Redis (Caching, session state, & task rate limiting)
   - [ ] gRPC dependencies & local protocol buffers generation environment
 - [ ] Verify connectivity and health checks across all containerized services
 
